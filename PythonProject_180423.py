@@ -42,7 +42,6 @@ def importFile():
         selectedFiles.insert(END, "\n".join(filenames))
         consoleText.see(END)
         selectedFiles.config(state=NORMAL)
-        print("cppver: ", cppver.get())
 
         if cppver.get() != "":
             startButton.config(state=NORMAL)
